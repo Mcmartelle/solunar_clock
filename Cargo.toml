@@ -1,0 +1,14 @@
+[package]
+name = "solunar_clock"
+version = "0.1.0"
+authors = ["Matthew Martelle <mcmartelle@gmail.com>"]
+edition = "2018"
+publish = false
+resolver = "2"
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced.git", features = ["canvas", "tokio", "debug", "image"] }
+chrono = "0.4"
+esbat = "0.1.0"
+circadia = "0.0.2"
+geodate = "0.4.0"
